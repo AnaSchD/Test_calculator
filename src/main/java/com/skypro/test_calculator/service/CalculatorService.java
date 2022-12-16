@@ -17,7 +17,7 @@ public class CalculatorService {
             throw new ThereIsNoParameterException ("Введите параметры");
         }
         int result;
-        return (result = num1 + num2);
+        return result = num1 + num2;
     }
     public Integer subtraction (Integer num1, Integer num2) throws ThereIsNoParameterException {
         if (num1 == null || num2 == null) {
